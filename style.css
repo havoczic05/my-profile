@@ -1,0 +1,99 @@
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+.card-white:hover {
+      
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#img-profile-picture {
+    max-width: 150px;
+    max-height: 150px;
+    transition: 0.5s ease;
+    
+}
+
+#img-profile-picture:hover {
+    opacity: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline i {
+    font-size: 50px;
+    opacity: 0.2;
+    transition: 0.5s ease;
+}
+.list-inline i:hover {
+    opacity: 1;
+}
+
+.profile-card {
+    padding-bottom: 30px;
+}
+
+.profile-card p {
+    margin-bottom: 25px;
+
+}
+
+.btn-purple {
+    background-color: #9b70f2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    }
+
+.btn-purple:hover {
+    background-color: black;
+}    
+
+
+.link-styled {
+    text-decoration: none;
+}    
+
+@media (max-width: 960px) {
+    /* Para una pantalla < 960px, se leerá este CSS */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* Para una pantalla < 720px, se leerá este CSS */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* Para una pantalla < 540px, se leerá este CSS */
+    .container {
+      width: 300px;
+    }
+  }
